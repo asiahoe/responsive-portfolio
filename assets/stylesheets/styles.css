@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Karla, sans-serif;
+}
+
+.container {
+	font-size: 100%;
+	max-width: 1200px; /* Change to max-width to allow the width to change. */
+	margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+
+header {
+	padding: 60px 90px; /* 1200-(90+90)=1020 */
+	overflow: auto;
+}
+
+header .title{
+	width: 69.11764706%; /* 705/1020 = 69.12 */
+	margin-right: 5.882352941%; /* 60/1020 = 5.88 */
+	float: left;
+}
+
+header .title h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+header .title h2 {
+	font-size: 1.5em;
+	color: #999;
+}
+
+header .contact {
+	width: 25%; /* 255/1020 = 21.25 */
+	float: right;
+	line-height: 1.5em;
+	color: #999;
+}
+
+/* ===== MAIN ===== */
+
+main {
+	background: #000;
+	color: #fff;
+	padding: 90px;
+	overflow: auto;
+	width: 100%;
+}
+
+main .about {
+	width: 69.11764706%;
+	margin-right: 5.882352941%;
+	float: left;
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #ccc;
+}
+
+main .skills {
+	width: 25%;
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #666;
+	line-height: 1.5em;
+}
+
+main ul.work {
+	clear: both;
+	padding-top: 90px;
+}
+
+main ul.work li {
+	float: left;
+	width: 47.05882353%; /* 480/1020 */
+	margin-bottom: 60px;
+}
+
+/* add margin to every other image */
+main ul.work li:nth-child(2n-1) {
+	margin-right: 5.882352941%;
+}
+
+main ul.work li img {
+	max-width: 100%;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+	padding: 60px 90px;
+	color: #999;
+}
